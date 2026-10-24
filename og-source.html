@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; box-sizing: border-box; }
+  /* larger than the OG card; the 1200x630 card sits inset so the
+     preview-app overlay in the viewport corner is cropped away */
+  html, body { width: 1440px; height: 830px; overflow: hidden; background: #05070c; }
+  .card {
+    position: absolute; left: 140px; top: 140px;
+    width: 1200px; height: 630px; overflow: hidden;
+    background:
+      radial-gradient(900px 500px at 78% 60%, rgba(45, 110, 235, 0.20), transparent 65%),
+      radial-gradient(600px 400px at 10% 0%, rgba(40, 80, 180, 0.14), transparent 70%),
+      #05070c;
+    color: #fff;
+    font-family: 'Inter Tight', system-ui, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    gap: 40px;
+  }
+  .left { flex: 1; }
+  .brand { display: flex; align-items: baseline; gap: 10px; margin-bottom: 46px; }
+  .brand .m { font-weight: 800; font-size: 30px; letter-spacing: 0.16em; }
+  .brand .s {
+    font-family: 'JetBrains Mono', monospace; font-size: 15px;
+    letter-spacing: 0.34em; color: #6f92c4;
+  }
+  h1 {
+    font-size: 92px; font-weight: 800; letter-spacing: -0.03em; line-height: 0.98;
+    text-shadow: 0 0 90px rgba(60, 130, 255, 0.4);
+    margin-bottom: 26px;
+  }
+  h1 span { color: #7db4ff; }
+  .sub {
+    font-size: 33px; font-weight: 600; letter-spacing: -0.02em;
+    color: #c9d8ef; line-height: 1.25; margin-bottom: 34px;
+  }
+  .meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 15px;
+    letter-spacing: 0.3em; color: #5f7fa8; text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .art { width: 430px; height: 430px; flex: none; display: grid; place-items: center; }
+  .art img { width: 100%; height: 100%; filter: drop-shadow(0 30px 60px rgba(30, 80, 200, 0.35)); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="left">
+      <div class="brand">
+        <span class="m">ZERO</span><span class="s">BOT V1</span>
+      </div>
+      <h1>MEET<br>ZERO BOT <span>V1.</span></h1>
+      <p class="sub">A little AI.<br>A lot of personality.</p>
+      <p class="meta">See · Hear · Think · Interact — by JollyTech</p>
+    </div>
+    <div class="art"><img src="/icon-512-transparent.png" alt=""></div>
+  </div>
+</body>
+</html>

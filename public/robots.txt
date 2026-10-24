@@ -1,0 +1,11 @@
+# Zero Bot V1 — JollyTech
+User-agent: *
+Allow: /
+
+# static assets
+Allow: /assets/
+Allow: /icon-*.png
+Allow: /favicon*
+Allow: /og-image.png
+
+Sitemap: https://zerobot.vercel.app/sitemap.xml

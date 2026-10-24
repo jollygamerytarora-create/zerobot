@@ -1,0 +1,17 @@
+{
+  "name": "Zero Bot V1 — The AI Companion by JollyTech",
+  "short_name": "Zero Bot V1",
+  "description": "Zero Bot V1 is a small physical AI companion designed to see, hear, think and interact.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
+  "categories": ["productivity", "entertainment", "lifestyle"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

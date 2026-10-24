@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#05070c" />
+    <title>Zero Bot V1 — A Little AI with a Lot of Personality | JollyTech</title>
+    <meta
+      name="description"
+      content="Meet Zero Bot V1, a compact physical AI companion by JollyTech. It sees, listens, thinks and reacts with expressive eyes. Pre-register for launch."
+    />
+    <meta name="keywords" content="Zero Bot V1, AI companion, personal robot, desktop robot, JollyTech, expressive robot, companion device, pre-register" />
+    <meta name="author" content="JollyTech" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://zerobot.vercel.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Zero Bot V1" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://zerobot.vercel.app/" />
+    <meta property="og:title" content="Zero Bot V1 — A Little AI with a Lot of Personality" />
+    <meta
+      property="og:description"
+      content="A compact physical AI companion that sees, listens, thinks and reacts. Designed by JollyTech. Pre-register for Zero Bot V1."
+    />
+    <meta property="og:image" content="https://zerobot.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Zero Bot V1 — a rounded-square AI companion with expressive blue eyes" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zero Bot V1 — A Little AI with a Lot of Personality" />
+    <meta
+      name="twitter:description"
+      content="A compact physical AI companion that sees, listens, thinks and reacts. Designed by JollyTech."
+    />
+    <meta name="twitter:image" content="https://zerobot.vercel.app/og-image.png" />
+    <meta name="twitter:image:alt" content="Zero Bot V1 — a rounded-square AI companion with expressive blue eyes" />
+
+    <!-- Icons & app -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Zero Bot V1" />
+    <meta name="application-name" content="Zero Bot V1" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: Organization + WebSite + Product -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://zerobot.vercel.app/#organization",
+            "name": "JollyTech",
+            "url": "https://zerobot.vercel.app/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://zerobot.vercel.app/icon-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "makesOffer": {
+              "@type": "Offer",
+              "itemOffered": { "@type": "Product", "name": "Zero Bot V1" }
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://zerobot.vercel.app/#website",
+            "url": "https://zerobot.vercel.app/",
+            "name": "Zero Bot V1",
+            "description": "Zero Bot V1 is a small physical AI companion designed to see, hear, think and interact.",
+            "publisher": { "@id": "https://zerobot.vercel.app/#organization" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "Product",
+            "@id": "https://zerobot.vercel.app/#product",
+            "name": "Zero Bot V1",
+            "alternateName": "Zero Bot",
+            "sku": "ZERO-BOT-V1",
+            "brand": { "@type": "Brand", "name": "JollyTech" },
+            "manufacturer": { "@id": "https://zerobot.vercel.app/#organization" },
+            "category": "Physical AI companion device",
+            "description": "Zero Bot V1 is a compact physical AI companion with a rounded-square body, a curved glossy display, expressive animated eyes and 360-degree audio. It can see, hear, think and interact.",
+            "url": "https://zerobot.vercel.app/",
+            "image": [
+              "https://zerobot.vercel.app/og-image.png",
+              "https://zerobot.vercel.app/icon-512.png"
+            ],
+            "additionalProperty": [
+              { "@type": "PropertyValue", "name": "Display", "value": "Curved glossy face display with animated expressions" },
+              { "@type": "PropertyValue", "name": "Audio", "value": "Full-range 360° speakers" },
+              { "@type": "PropertyValue", "name": "Connectivity", "value": "USB-C" }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #05070c;
+        color: #fff;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+        background: #05070c;
+        display: grid;
+        place-items: center;
+        font-family: ui-monospace, monospace;
+        font-size: 11px;
+        letter-spacing: 0.3em;
+        color: #5f7fa8;
+      }
+      /* Readable fallback when JavaScript is unavailable (also helps crawlers
+         that do not execute scripts). */
+      .noscript {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 64px 24px;
+        font-family: 'Inter Tight', system-ui, -apple-system, sans-serif;
+        color: #e8eefb;
+        line-height: 1.65;
+      }
+      .noscript h1 {
+        font-size: clamp(2rem, 6vw, 3.4rem);
+        letter-spacing: -0.03em;
+        margin: 0 0 0.4em;
+      }
+      .noscript .lead {
+        color: #7db4ff;
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin: 0 0 1.4em;
+      }
+      .noscript h2 {
+        font-size: 1.05rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #8fb2e4;
+        margin: 2em 0 0.5em;
+      }
+      .noscript ul { padding-left: 1.2em; margin: 0.4em 0; }
+      .noscript li { margin: 0.3em 0; }
+      .noscript a { color: #7db4ff; }
+      .noscript .brand {
+        font-family: ui-monospace, monospace;
+        letter-spacing: 0.3em;
+        color: #5f7fa8;
+        font-size: 0.8rem;
+        margin-bottom: 2.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <div class="noscript">
+        <p class="brand">ZERO BOT V1 — BY JOLLYTECH</p>
+        <h1>Zero Bot V1</h1>
+        <p class="lead">A little AI. A lot of personality.</p>
+        <p>
+          Zero Bot V1 is a small physical AI companion, designed to see, hear, think and
+          interact. Its compact rounded-square body, curved glossy display and expressive
+          animated eyes make it feel less like a device and more like a friend for your desk.
+        </p>
+
+        <h2>What it can do</h2>
+        <ul>
+          <li><strong>See</strong> — vision that understands people, objects and the room around it.</li>
+          <li><strong>Listen</strong> — far-field microphones and 360° audio, wake it with “Hey Zero.”</li>
+          <li><strong>Think</strong> — on-device intelligence that understands context, conversation and intent.</li>
+          <li><strong>React</strong> — a living face with moods, blinks, winks and surprises.</li>
+        </ul>
+
+        <h2>Pre-register</h2>
+        <p>
+          Want one? Message us on WhatsApp at
+          <a href="https://wa.me/917014270402">+91&nbsp;70142&nbsp;70402</a> with your name,
+          email and phone number, and say you want to pre-register for Zero Bot V1.
+        </p>
+
+        <h2>Designed by JollyTech</h2>
+        <p>
+          <a href="https://zerobot.vercel.app/">zerobot.vercel.app</a> — the official
+          showcase of Zero Bot V1.
+        </p>
+      </div>
+    </noscript>
+
+    <div id="root"><div id="boot">INITIALIZING ZERO BOT...</div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

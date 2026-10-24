@@ -8,4 +8,4 @@ Allow: /icon-*.png
 Allow: /favicon*
 Allow: /og-image.png
 
-Sitemap: https://zerobot.vercel.app/sitemap.xml
+Sitemap: https://zerobotv1.vercel.app/sitemap.xml
